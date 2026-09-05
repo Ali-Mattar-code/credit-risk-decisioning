@@ -1,0 +1,6 @@
+feature,psi,status
+predicted_pd,0.006755651398178752,stable
+bureau_score,0.009973246292617447,stable
+debt_to_income,0.011362680213300135,stable
+utilisation,0.0013075993930787158,stable
+requested_amount,0.006666946472770189,stable
