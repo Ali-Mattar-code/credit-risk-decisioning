@@ -5,14 +5,13 @@ from __future__ import annotations
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 from credit_risk.data import TARGET, generate_credit_portfolio, temporal_split
 from credit_risk.evaluation import binary_metrics, calibration_table
 from credit_risk.modeling import model_metadata, train_champion_challenger
 from credit_risk.monitoring import drift_report, group_audit
-from credit_risk.policy import approval_mask, evaluate_policy, heuristic_score, policy_frontier, select_policy
+from credit_risk.policy import evaluate_policy, heuristic_score, policy_frontier, select_policy
 from credit_risk.serialization import save_model, write_json
 
 
