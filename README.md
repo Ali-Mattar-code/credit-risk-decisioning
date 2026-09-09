@@ -51,7 +51,7 @@ The design deliberately separates three questions that are often collapsed into 
 - Exact-volume, risk-ranked approval policies and a constrained policy frontier
 - Equal-approval comparison against a transparent bureau heuristic
 - PSI monitoring for scores and major features
-- Diagnostic approval-rate audit by age group; age is excluded from model inputs
+- Diagnostic approval/default-rate audit by age group with counts, portfolio gaps and 95% Wilson intervals; age is excluded from model inputs
 - FastAPI scoring endpoint, Streamlit review dashboard, typed package and CLI
 - Tests, static checks, Docker packaging and GitHub Actions CI
 
@@ -122,6 +122,7 @@ curl -X POST http://localhost:8000/score \
 | Volume–risk confusion | Comparisons hold approval rate constant |
 | Model drift | PSI is calculated for predicted PD and major drivers |
 | Sensitive attributes | Age group is excluded from training and retained only for diagnostic monitoring |
+| Small-group uncertainty | Group approval and observed-default rates include bounded 95% Wilson intervals and raw counts |
 | Metric overclaiming | Every output is labelled synthetic; no result is presented as production evidence |
 
 More detail is available in the [methodology](docs/methodology.md), [model card](docs/model_card.md), [data card](docs/data_card.md) and [engineering decisions](docs/engineering_decisions.md).

@@ -237,6 +237,7 @@ def run_reproduction(
         "governance": {
             "sensitive_feature_excluded_from_model": "age_group",
             "group_audit_is_diagnostic_not_a_fairness_certification": True,
+            "group_rate_intervals": "two-sided 95% Wilson score intervals",
             "deployment_status": "demonstration only",
         },
     }

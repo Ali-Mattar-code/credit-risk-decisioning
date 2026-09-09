@@ -35,5 +35,6 @@ These results describe this generator only. They are not production estimates an
 - No reject inference is attempted.
 - The economic objective omits prepayment, collections timing, capital and operational costs.
 - The diagnostic group report is not a complete fairness assessment.
+- Group-rate Wilson intervals cover binomial sampling uncertainty only; they do not address selection bias, multiple comparisons or outcome maturity.
 - Isotonic calibration can be unstable when calibration samples are small.
 - A mature production model requires independent validation, audit trails and monitored outcome maturity.

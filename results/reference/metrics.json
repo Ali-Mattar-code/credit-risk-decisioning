@@ -50,6 +50,7 @@
   "governance": {
     "deployment_status": "demonstration only",
     "group_audit_is_diagnostic_not_a_fairness_certification": true,
+    "group_rate_intervals": "two-sided 95% Wilson score intervals",
     "sensitive_feature_excluded_from_model": "age_group"
   },
   "holdout_metrics": {

@@ -69,4 +69,4 @@ PSI=\sum_b (q_b-p_b)\ln\left(\frac{q_b}{p_b}\right).
 
 Values below 0.10 are labelled stable, 0.10–0.25 watch, and 0.25 or above investigate. These thresholds are conventions, not universal regulatory limits.
 
-The group audit reports approval and risk by age band. It is a diagnostic surface, not proof of fairness. Age is absent from model inputs.
+The group audit reports counts, approval rates, observed default rates and approval-rate gaps versus the portfolio by age band. Each rate includes a two-sided 95% Wilson score interval, which remains bounded and is more informative than an unqualified point estimate when a group is small. The intervals capture binomial sampling uncertainty only; they do not correct selection bias or establish legal or substantive fairness. Age is absent from model inputs.
